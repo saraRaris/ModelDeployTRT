@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "triton-simple-deployment"
+version = "0.1.0"
+description = ""
+authors = ["Sara Raris <sarararismiralles@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "1.23.4"
+tritonclient = {extras = ["grpc"], version = "^2.48.0"}
+opencv-python = "4.7.0.72"
+imutils = "^0.5.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,8 @@
+numpy
+pillow
+torch
+torchvision
+opencv-python-headless
+scipy
+imutils
+git+https://github.com/lilohuang/PyTurboJPEG.git
